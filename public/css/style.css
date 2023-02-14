@@ -1,0 +1,56 @@
+@import url("https://use.typekit.net/nvt3vki.css");
+@import 'animate.css';
+h1{
+    color: #dbc454;
+    font-family: lust-script-display, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 43vh;
+    text-shadow: 2px 2px 10px #000;
+    animation-duration: 2s;
+    animation-name: example;
+  }
+
+@keyframes example{
+    0%{
+        margin-top: 68vh;
+        opacity: 30%;
+        font-size: 0.5rem;
+    }
+    50%{
+        margin-top: 56vh;
+        opacity: 60%;
+        font-size: 1.5rem;
+    }
+    100%{
+        margin-top: 43vh;
+        opacity: 100%;
+        font-size: 3rem;
+    }
+}
+
+/* @keyframes example{
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+} */
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    /* filter: blur(2px); */
+    filter:grayscale() blur(1.2px);
+  }
